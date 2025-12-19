@@ -30,12 +30,7 @@
             3px 3px 3px #3f0faf;
 
     }
-    h1:hover {
-    text-shadow:
-        0 0 8px #611fdd,
-        0 0 15px #113af0,
-        0 0 25px #3f0faf;
-}
+
 
 
     .marquee {
@@ -55,6 +50,22 @@
         to {
             transform: translateX(-100%);
         }
+    }
+
+    .card {
+        background: white;
+        border-radius: 12px;
+        max-width: 300px;
+        margin: auto;
+        padding: 16px;
+        text-align: center;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+        transition: all 0.3s ease;
+    }
+
+    .card:hover {
+        transform: translateY(-8px);
+        box-shadow:  0 12px 25px rgba(0,0,0,0.2);
     }
 </style>
 
