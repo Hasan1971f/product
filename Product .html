@@ -18,6 +18,31 @@
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         gap: 30px;
     }
+
+    h1 {
+        text-align: center;
+        font-weight: 900;
+        color: blue;
+    }
+
+    .marquee {
+        overflow: hidden;
+    }
+
+    .marquee h1 {
+        display: inline-block;
+        animation: move 8s linear infinite;
+    }
+
+    @keyframes move {
+        from {
+            transform: translateX(100%);
+        }
+
+        to {
+            transform: translateX(-100%);
+        }
+    }
 </style>
 
 <body>
