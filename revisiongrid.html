@@ -1,0 +1,252 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Grid Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #6987e0;
+            padding: 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+
+        }
+
+        .card {
+            max-width: 320px;
+            margin: auto;
+            padding: 12px;
+
+            background: white;
+            border: 1px solid red;
+            border-radius: 8px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+
+            text-align: center;
+
+        }
+
+        .img-box {
+            position: relative;
+        }
+
+        .card img {
+            
+            display: block;
+            border-radius: 6px;
+            margin-top: 16px;
+
+        }
+
+        .badge {
+            position: absolute;
+            padding: 6px 10px;
+
+            top: 12px;
+            left: 12px;
+            background: red;
+            color: white;
+            border-radius: 50%;
+            font-size: 12px;
+        }
+
+        h1 {
+            font-size: 20px;
+            color: rgb(58, 77, 248);
+        }
+
+        p {
+            color: rgb(248, 87, 87);
+        }
+
+        button {
+            background: green;
+            padding: 8px 14px;
+            border: none;
+            border-radius: 8px;
+            color: white;
+            cursor: pointer;
+            margin-bottom: 8px;
+        }
+
+        @media (max-width:600px) {
+            body {
+                background: #0c53e2;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid">
+        <div class="card">
+            <div class="img-box">
+                <span class="badge">New!🔥</span>
+                <img src="asxets/image.jpeg" alt="">
+            </div>
+            <h1>Card Title</h1>
+            <p>This is a simple card description.</p>
+            <button>Read More</button>
+        </div>
+        <div class="card">
+            <div class="img-box">
+                <span class="badge">New!🔥</span>
+                <img src="asxets/image.jpeg" alt="">
+            </div>
+            <h1>Card Title</h1>
+            <p>This is a simple card description.</p>
+            <button>Read More</button>
+        </div>
+        <div class="card">
+            <div class="img-box">
+                <span class="badge">New!🔥</span>
+                <img src="asxets/image.jpeg" alt="">
+            </div>
+            <h1>Card Title</h1>
+            <p>This is a simple card description.</p>
+            <button>Read More</button>
+        </div>
+        <div class="card">
+            <div class="img-box">
+                <span class="badge">New!🔥</span>
+                <img src="asxets/image.jpeg" alt="">
+            </div>
+            <h1>Card Title</h1>
+            <p>This is a simple card description.</p>
+            <button>Read More</button>
+        </div>
+
+    </div>
+</body>
+
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Grid Practice</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #6987e0;
+      padding: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      max-width: 320px;
+      margin: auto;
+      padding: 12px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      text-align: center;
+    }
+
+    .img-box {
+      position: relative;
+    }
+
+    .card img {
+      width: 70%; /* image ছোট হয়েছে */
+      display: block;
+      border-radius: 6px;
+      margin: 16px auto 0; /* centered & top margin */
+    }
+
+    .badge {
+      position: absolute;
+      top: 8px;
+      left: 12px; /* image-এর উপরে left side */
+      padding: 6px 10px;
+      background: red;
+      color: white;
+      border-radius: 12px;
+      font-size: 12px;
+    }
+
+    h1 {
+      font-size: 20px;
+      color: rgb(58, 77, 248);
+    }
+
+    p {
+      color: rgb(248, 87, 87);
+    }
+
+    button {
+      background: green;
+      padding: 8px 14px;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      cursor: pointer;
+      margin-bottom: 8px;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        background: #0c53e2;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="grid">
+    <div class="card">
+      <div class="img-box">
+        <span class="badge">New!🔥</span>
+        <img src="asxets/image.jpeg" alt="">
+      </div>
+      <h1>Card Title</h1>
+      <p>This is a simple card description.</p>
+      <button>Read More</button>
+    </div>
+    <div class="card">
+      <div class="img-box">
+        <span class="badge">New!🔥</span>
+        <img src="asxets/image.jpeg" alt="">
+      </div>
+      <h1>Card Title</h1>
+      <p>This is a simple card description.</p>
+      <button>Read More</button>
+    </div>
+    <div class="card">
+      <div class="img-box">
+        <span class="badge">New!🔥</span>
+        <img src="asxets/image.jpeg" alt="">
+      </div>
+      <h1>Card Title</h1>
+      <p>This is a simple card description.</p>
+      <button>Read More</button>
+    </div>
+    <div class="card">
+      <div class="img-box">
+        <span class="badge">New!🔥</span>
+        <img src="asxets/image.jpeg" alt="">
+      </div>
+      <h1>Card Title</h1>
+      <p>This is a simple card description.</p>
+      <button>Read More</button>
+    </div>
+  </div>
+</body>
+
+</html>
